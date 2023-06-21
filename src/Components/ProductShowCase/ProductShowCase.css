@@ -1,0 +1,69 @@
+.ProductShowCase {
+  width: 98vw;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/video-bg.png);
+  background-size: cover;
+  background-position: right top;
+}
+
+.showcaseWrapper {
+  min-height: 70%;
+}
+
+.showcaseUI {
+  position: absolute;
+  object-fit: cover;
+  bottom: 0;
+  left: 50%;
+}
+
+.showcaseMockup1 {
+  transform: translate(-160%, 25%);
+  z-index: 98;
+}
+
+.showcaseMockup2 {
+  transform: translate(-105%, 15%);
+  z-index: 99;
+}
+
+.showcaseMockup3 {
+  transform: translate(-50%, 5%);
+  z-index: 100;
+}
+
+.showcaseMockup4 {
+  transform: translate(5%, 15%);
+  z-index: 99;
+}
+
+.showcaseMockup5 {
+  transform: translate(60%, 25%);
+  z-index: 98;
+}
+
+@media all and (max-width: 1279px) {
+  .ProductShowCase {
+    height: 620px;
+  }
+
+  .showcaseUI {
+    width: 300px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .ProductShowCase {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/video-bg-mobile.png);
+  }
+
+  .showcaseUI {
+    width: 150px;
+  }
+}

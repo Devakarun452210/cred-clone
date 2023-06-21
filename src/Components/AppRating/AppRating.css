@@ -1,0 +1,75 @@
+.AppRating {
+  padding: 200px 0px;
+  justify-content: space-around;
+}
+
+.AppRatingValue {
+  font-size: 160px;
+  line-height: 120px;
+  padding-right: 16px;
+  font-weight: 700;
+}
+
+.AppRatingStars {
+  width: 179px;
+  height: 28px;
+}
+
+.AppRatingPlatform {
+  font-size: 60px;
+  line-height: 55px;
+  padding-left: 16px;
+  font-weight: 700;
+}
+
+.AppRatingBlock {
+  margin-bottom: 70px;
+}
+
+.AppRatingIcon {
+  height: 30px;
+  margin-right: 6px;
+}
+
+.AppRatingButton {
+  padding: 15px 30px !important;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+@media all and (max-width: 1279px) {
+  .AppRating {
+    padding: 100px 0px;
+  }
+
+  .AppRatingValue {
+    font-size: 100px;
+  }
+
+  .AppRatingStars {
+    width: 120px;
+    height: 18px;
+  }
+
+  .AppRatingPlatform {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .AppRating {
+    padding: 70px 0px;
+    flex-direction: column;
+  }
+
+  .AppRatingValue {
+    font-size: 90px;
+  }
+
+  .AppRatingPlatform {
+    font-size: 31px;
+    line-height: 32px;
+    align-self: center;
+  }
+}

@@ -1,0 +1,65 @@
+.CredStory {
+  min-height: 100vh;
+  background-color: var(--cred-story-green);
+  background-size: cover;
+  background-position: right bottom;
+  position: relative;
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg.jpg);
+}
+
+.storyWrapper {
+  align-items: flex-end;
+}
+
+.CredStoryHeadingWrapper {
+  width: 50%;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.CredStoryHeading {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  max-width: 80%;
+}
+
+.CredStoryDetails {
+  width: 90%;
+  font-weight: 500;
+  margin-left: 30px;
+}
+
+.CredStoryPara {
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 20px;
+  max-width: 550px;
+}
+
+@media all and (max-width: 1276px) {
+  .CredStoryHeading {
+    max-width: 100%;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .CredStoryHeading {
+    font-size: 55px;
+    line-height: 55px;
+    padding-bottom: 80px;
+  }
+
+  .CredStoryPara {
+    font-size: 15px;
+  }
+
+  .storyWrapper {
+    flex-direction: column;
+    padding: 70px 0px;
+  }
+
+  .CredStoryHeadingWrapper {
+    width: 100%;
+  }
+}
